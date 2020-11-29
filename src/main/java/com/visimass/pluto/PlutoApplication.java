@@ -7,7 +7,19 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class PlutoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PlutoApplication.class, args);
+		startUp();
+		// SpringApplication.run(PlutoApplication.class, args);
+	}
+
+	private static void startUp() {
+		System.out.println("\n" +
+						"# ------------------------------------- #\n" +
+						"#   _____  __     __ __  _____  _____   #\n" +
+						"#  |  _  ||  |   |  |  ||_   _||     |  #\n" +
+						"#  |   __||  |__ |  |  |  | |  |  |  |  #\n" +
+						"#  |__|   |_____||_____|  |_|  |_____|  #\n" +
+						"#                                       #\n" +
+						"# ------------------------------------- #");
 	}
 
 }
